@@ -61,14 +61,12 @@ public class MyFirstActivity extends Activity {
     public void mainOptions(View target){
         switch (target.getId()){
             case R.id.main_options:
-                //setContentView(R.layout.bye);
                 System.exit(0);
         }
     }
     public void mainExit(View target){
         switch (target.getId()){
             case R.id.main_exit:
-                //setContentView(R.layout.bye);
                 System.exit(0);
         }
     }

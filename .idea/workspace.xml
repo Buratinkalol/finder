@@ -89,22 +89,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bye.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/bye.xml">
-          <provider editor-type-id="text-editor">
-            <state line="6" column="0" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="342">
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="48" selection-start="2257" selection-end="2257" vertical-scroll-proportion="0.0" vertical-offset="828" max-vertical-offset="1026">
+            <state line="46" column="48" selection-start="2257" selection-end="2257" vertical-scroll-proportion="0.5194805" vertical-offset="668" max-vertical-offset="1026">
               <folding />
             </state>
           </provider>
@@ -113,10 +101,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MyFirstActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MyFirstActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/untitled/MyFirstActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="18" selection-start="2133" selection-end="2133" vertical-scroll-proportion="0.5247059" vertical-offset="965" max-vertical-offset="1638">
+            <state line="62" column="35" selection-start="1913" selection-end="1913" vertical-scroll-proportion="0.0" vertical-offset="947" max-vertical-offset="1602">
               <folding />
             </state>
           </provider>
@@ -703,12 +691,12 @@
       <workItem from="1408546478610" duration="415000" />
       <workItem from="1408552088388" duration="4907000" />
       <workItem from="1408569228897" duration="2415000" />
-      <workItem from="1408573558856" duration="20000" />
+      <workItem from="1408573558856" duration="176000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49114000" />
+    <option name="totallyTimeSpent" value="49270000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -732,11 +720,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="-4" width="1026" height="605" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19529653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -748,6 +737,7 @@
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42083332" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -759,9 +749,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19529653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32916668" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1118,16 +1106,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/bye.xml">
-      <provider editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="282" selection-end="282" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="342">
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/untitled/MyApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="30" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0" vertical-offset="72" max-vertical-offset="558">
@@ -1142,21 +1120,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/untitled/MyFirstActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="35" selection-start="1913" selection-end="1913" vertical-scroll-proportion="0.0" vertical-offset="947" max-vertical-offset="1602">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="48" selection-start="2257" selection-end="2257" vertical-scroll-proportion="0.0" vertical-offset="828" max-vertical-offset="1026">
+        <state line="46" column="48" selection-start="2257" selection-end="2257" vertical-scroll-proportion="0.5194805" vertical-offset="668" max-vertical-offset="1026">
           <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/untitled/MyFirstActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="18" selection-start="2133" selection-end="2133" vertical-scroll-proportion="0.5247059" vertical-offset="965" max-vertical-offset="1638">
-          <folding />
-        </state>
       </provider>
     </entry>
   </component>
