@@ -4,13 +4,13 @@
               android:orientation="vertical"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
-              android:background="@color/app_background">
+              android:background="@drawable/gradient_gray">
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="@string/who_step"
-            android:textColor="@color/text_color"
+            android:textColor="@color/app_title"
             android:id="@+id/textView"
             android:layout_gravity="center_horizontal"
             android:textStyle="bold"
@@ -33,13 +33,15 @@
             android:text="@string/button_backward"
             android:onClick="whoButtonBack"
             android:id="@+id/button3"
-            android:layout_marginTop="49dp"
-            android:layout_below="@+id/textView2" android:layout_alignParentLeft="true"/>
+            android:layout_below="@+id/textView2" android:layout_alignParentLeft="true"
+            android:layout_marginTop="50dp" android:layout_marginLeft="25dp"
+            android:background="@drawable/gradient_gray_button"/>
     <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/toSummary"
             android:id="@+id/summary"
-            android:onClick="toSummary" android:layout_centerVertical="true" android:layout_centerHorizontal="true"/>
+            android:onClick="toSummary" android:layout_centerVertical="true" android:layout_centerHorizontal="true"
+            android:background="@drawable/gradient_gray_button"/>
 
 </RelativeLayout>

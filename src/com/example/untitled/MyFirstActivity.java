@@ -2,6 +2,8 @@ package com.example.untitled;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 
 /**
  * Created by sundays on 7/13/14.
@@ -10,6 +12,9 @@ public class MyFirstActivity extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+                WindowManager.LayoutParams.FLAG_FULLSCREEN);
        /** TextView textView= new TextView(this);
         setContentView(textView);
         */
@@ -56,13 +61,15 @@ public class MyFirstActivity extends Activity {
     public void mainOptions(View target){
         switch (target.getId()){
             case R.id.main_options:
-                setContentView(R.layout.bye);
+                //setContentView(R.layout.bye);
+                System.exit(0);
         }
     }
     public void mainExit(View target){
         switch (target.getId()){
             case R.id.main_exit:
                 setContentView(R.layout.bye);
+                //System.exit(0);
         }
     }
     public void toSummary(View target){

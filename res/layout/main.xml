@@ -3,7 +3,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/app_background">
+                android:background="@drawable/gradient_gray">
 
     <Button
             android:layout_width="match_parent"
@@ -11,38 +11,42 @@
             android:text="@string/main_find"
             android:id="@+id/main_find"
             android:layout_marginTop="87dp"
-            android:textColor="#000000"
+            android:textColor="@color/text_color"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
-            android:onClick="mainFind"/>
+            android:onClick="mainFind" android:background="@drawable/gradient_gray_button"
+            android:layout_marginLeft="50dp" android:layout_marginRight="50dp"/>
     <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/main_lost"
             android:id="@+id/main_lost"
             android:layout_marginTop="51dp"
-            android:textColor="#000000"
+            android:textColor="@color/text_color"
             android:layout_below="@+id/main_find"
             android:layout_alignParentLeft="true"
-            android:onClick="mainLost"/>
+            android:onClick="mainLost" android:background="@drawable/gradient_gray_button"
+            android:layout_marginLeft="50dp" android:layout_marginRight="50dp"/>
     <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/main_options"
             android:id="@+id/main_options"
             android:layout_marginTop="51dp"
-            android:textColor="#000000"
+            android:textColor="@color/text_color"
             android:layout_below="@+id/main_lost"
             android:layout_alignParentLeft="true"
-            android:onClick="mainOptions"/>
+            android:onClick="mainOptions" android:background="@drawable/gradient_gray_button"
+            android:layout_marginLeft="50dp" android:layout_marginRight="50dp"/>
     <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/main_exit"
             android:id="@+id/main_exit"
             android:layout_marginTop="51dp"
-            android:textColor="#000000"
+            android:textColor="@color/text_color"
             android:layout_below="@+id/main_options"
             android:layout_alignParentLeft="true"
-            android:onClick="mainExit"/>
+            android:onClick="mainExit" android:background="@drawable/gradient_gray_button"
+            android:layout_marginLeft="50dp" android:layout_marginRight="50dp"/>
 </RelativeLayout>

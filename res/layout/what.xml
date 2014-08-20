@@ -4,13 +4,13 @@
               android:layout_width="fill_parent"
               android:layout_height="fill_parent"
               android:weightSum="1"
-              android:background="@color/app_background">
+              android:background="@drawable/gradient_gray">
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="@string/what_step"
-            android:textColor="@color/text_color"
+            android:textColor="@color/app_title"
             android:id="@+id/textView"
             android:layout_gravity="center_horizontal"
             android:textStyle="bold"
@@ -38,5 +38,7 @@
             android:layout_height="wrap_content"
             android:text="@string/button_forward"
             android:onClick="whatButton"
-            android:id="@+id/button" android:layout_below="@+id/editText" android:layout_alignParentRight="true"/>
+            android:id="@+id/button" android:layout_below="@+id/editText" android:layout_alignParentRight="true"
+            android:textColor="@color/text_color" android:background="@drawable/gradient_gray_button"
+            android:layout_marginTop="50dp" android:layout_marginRight="25dp"/>
 </RelativeLayout>

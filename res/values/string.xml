@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Поисковик ver.Alpha</string>
-    <string name="what_step">Шаг 1/3</string>
+    <string name="what_step">ШАГ 1/3</string>
     <string name="what_text">Что нашли?</string>
-    <string name="where_step">Шаг 2/3</string>
+    <string name="where_step">ШАГ 2/3</string>
     <string name="where_text">Где нашли?</string>
-    <string name="who_step">Шаг 3/3</string>
+    <string name="who_step">ШАГ 3/3</string>
     <string name="who_text">Контактные данные</string>
     <string name="button_forward">Вперед</string>
     <string name="button_backward">Назад</string>
-    <string name="summary">Summary:</string>
+    <string name="summary">ОБЩЕЕ:</string>
     <string name="main_find">Я нашел =)</string>
     <string name="main_lost">Я потерял =(</string>
     <string name="main_options">---</string>
