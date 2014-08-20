@@ -116,7 +116,7 @@
       <file leaf-file-name="MyFirstActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/untitled/MyFirstActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="16" selection-start="2131" selection-end="2131" vertical-scroll-proportion="0.66117644" vertical-offset="907" max-vertical-offset="1638">
+            <state line="64" column="16" selection-start="1978" selection-end="1978" vertical-scroll-proportion="0.32235295" vertical-offset="943" max-vertical-offset="1638">
               <folding />
             </state>
           </provider>
@@ -702,12 +702,12 @@
       <workItem from="1408546023369" duration="165000" />
       <workItem from="1408546478610" duration="415000" />
       <workItem from="1408552088388" duration="4907000" />
-      <workItem from="1408569228897" duration="2415000" />
+      <workItem from="1408569228897" duration="3023000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49094000" />
+    <option name="totallyTimeSpent" value="49702000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1153,7 +1153,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/untitled/MyFirstActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="16" selection-start="2131" selection-end="2131" vertical-scroll-proportion="0.66117644" vertical-offset="907" max-vertical-offset="1638">
+        <state line="64" column="16" selection-start="1978" selection-end="1978" vertical-scroll-proportion="0.32235295" vertical-offset="943" max-vertical-offset="1638">
           <folding />
         </state>
       </provider>
