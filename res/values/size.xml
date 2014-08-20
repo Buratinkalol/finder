@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="what_step">80px</dimen>
+    <dimen name="what_text">60px</dimen>
+    <dimen name="where_step">80px</dimen>
+    <dimen name="where_text">60px</dimen>
+    <dimen name="who_step">80px</dimen>
+    <dimen name="who_text">60px</dimen>
+</resources>

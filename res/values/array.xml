@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="string_array">
+        <item>Item 1</item>
+        <item>Item 2</item>
+        <item>Item 3</item>
+    </string-array>
+    <array name="integer_name">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </array>
+</resources>

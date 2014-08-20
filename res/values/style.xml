@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="base_text">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#ff62ff17</item>
+    </style>
+    <style name="small_text" parent="base_text">
+        <item name="android:textSize">7sp</item>
+        <item name="android:textColor">#ffff5ad2</item>
+    </style>
+</resources>

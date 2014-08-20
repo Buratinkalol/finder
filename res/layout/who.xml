@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/app_background">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/who_step"
+            android:textColor="@color/text_color"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textSize="@dimen/who_step" android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/who_text"
+            android:textColor="@color/text_color"
+            android:id="@+id/textView2"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textSize="@dimen/who_text"
+            android:layout_below="@+id/textView" android:layout_alignParentLeft="true"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_backward"
+            android:onClick="whoButtonBack"
+            android:id="@+id/button3"
+            android:layout_marginTop="49dp"
+            android:layout_below="@+id/textView2" android:layout_alignParentLeft="true"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/toSummary"
+            android:id="@+id/summary"
+            android:onClick="toSummary" android:layout_centerVertical="true" android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

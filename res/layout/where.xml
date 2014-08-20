@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/app_background">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/where_step"
+            android:textColor="@color/text_color"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textSize="@dimen/where_step" android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/where_text"
+            android:textColor="@color/text_color"
+            android:id="@+id/textView2"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textSize="@dimen/where_text" android:layout_below="@+id/textView"
+            android:layout_alignParentLeft="true"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText"
+            android:inputType="text"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="55dp"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_backward"
+            android:onClick="whereButtonBack"
+            android:id="@+id/button1"
+            android:layout_below="@+id/editText" android:layout_alignParentLeft="true"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_forward"
+            android:onClick="whereButtonFor"
+            android:id="@+id/button2" android:layout_alignTop="@+id/button1" android:layout_alignParentRight="true"/>
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:weightSum="1"
+              android:background="@color/app_background">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/what_step"
+            android:textColor="@color/text_color"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textSize="@dimen/what_step" android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"/>
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceLarge"
+              android:text="@string/what_text"
+              android:textColor="@color/text_color"
+              android:id="@+id/textView2"
+              android:layout_gravity="center_horizontal"
+              android:textStyle="bold"
+              android:textSize="@dimen/what_text" android:layout_below="@+id/textView"
+              android:layout_alignParentLeft="true"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText"
+            android:inputType="text"
+            android:layout_gravity="center_horizontal"
+            android:layout_below="@+id/textView2" android:layout_alignParentLeft="true"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_forward"
+            android:onClick="whatButton"
+            android:id="@+id/button" android:layout_below="@+id/editText" android:layout_alignParentRight="true"/>
+</RelativeLayout>
