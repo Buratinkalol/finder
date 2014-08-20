@@ -68,8 +68,8 @@ public class MyFirstActivity extends Activity {
     public void mainExit(View target){
         switch (target.getId()){
             case R.id.main_exit:
-                setContentView(R.layout.bye);
-                //System.exit(0);
+                //setContentView(R.layout.bye);
+                System.exit(0);
         }
     }
     public void toSummary(View target){
